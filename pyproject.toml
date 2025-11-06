@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mt_tools"
+version = "0.1.0"
+description = "Magnetotelluric dimensionality analysis tools and CLI"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [ { name = "(generated)" } ]
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib"
+]
+
+[project.scripts]
+mt_tools = "mt_tools.cli:main"
