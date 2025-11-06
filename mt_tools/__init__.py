@@ -4,6 +4,7 @@ Public API for the mt_tools library.
 """
 from .core import EDIParser, MTDimensionalityAnalyzer, MTVisualizer, MTReportGenerator
 
+
 __all__ = [
     'EDIParser',
     'MTDimensionalityAnalyzer',

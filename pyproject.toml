@@ -14,7 +14,8 @@ authors = [ { name = "(generated)" } ]
 dependencies = [
   "numpy",
   "pandas",
-  "matplotlib"
+  "matplotlib",
+  "scipy"
 ]
 
 [project.scripts]
