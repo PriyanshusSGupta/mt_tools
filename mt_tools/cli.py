@@ -63,7 +63,9 @@ if __name__ == '__main__':
 
 
 # from mt_tools import  MTReportGenerator, EDIParser, plotting , MTVisualizer, MTDimensionalityAnalyzer
-# parser = EDIParser("/home/ancientai/Documents/7th_Sem/MMT/labtest/Run2_LF1_12_ed.edi")
+#path = "path_to_your_edi_file"
+
+# parser = EDIParser(path)
 
 # edi_data = parser.parse()
 # analyzer = MTDimensionalityAnalyzer(edi_data=edi_data)
@@ -79,7 +81,7 @@ if __name__ == '__main__':
 # from mt_tools.smoothing import smooth_mt_df
 # from mt_tools.plotting import plot_mt
 
-# df = edi_to_dataframe("/home/ancientai/Documents/7th_Sem/MMT/labtest/Run2_LF1_12_ed.edi")
+# df = edi_to_dataframe(path)
 
 # df_s = smooth_mt_df(df, mode="sharp")
 
