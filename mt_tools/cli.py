@@ -60,3 +60,27 @@ def main(argv=None):
 
 if __name__ == '__main__':
     raise SystemExit(main())
+
+
+# from mt_tools import  MTReportGenerator, EDIParser, plotting , MTVisualizer, MTDimensionalityAnalyzer
+# parser = EDIParser("/home/ancientai/Documents/7th_Sem/MMT/labtest/Run2_LF1_12_ed.edi")
+
+# edi_data = parser.parse()
+# analyzer = MTDimensionalityAnalyzer(edi_data=edi_data)
+# results = analyzer.analyze()
+# reporter = MTReportGenerator(edi_data, results)
+# reporter.generate_all_reports()
+
+# viz = MTVisualizer(edi_data, results)
+# viz.create_all_plots()
+
+
+# from mt_tools.compute_mt import edi_to_dataframe
+# from mt_tools.smoothing import smooth_mt_df
+# from mt_tools.plotting import plot_mt
+
+# df = edi_to_dataframe("/home/ancientai/Documents/7th_Sem/MMT/labtest/Run2_LF1_12_ed.edi")
+
+# df_s = smooth_mt_df(df, mode="sharp")
+
+# plot_mt(df_s)
